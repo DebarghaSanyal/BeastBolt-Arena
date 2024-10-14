@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/web dev/Mark1/images/App logo.png">
+    <title>BeastBolt-Arena</title>
+    <!-- Open Graph Meta Tag -->
+    <!-- <meta property="og:image" content="https://recrunest.netlify.app/images/logo.png" />
+    </head> -->
+
+</head>
+<nav class="nav justify-content-center">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <a class="nav-link" onclick="scrollpg()">About</a>
+    <a class="nav-link" onclick="scrollContact()">Contact Us</a>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="card" style="width: 18rem;" id="g1">
+                <img src="/web dev/Mark1/images/game cover 1.jpg" class="card-img-top" alt="Shark & Dino">
+                <div class="card-body">
+                    <h3 class="card-title">Shark & Dino</h3>
+                    <p class="card-text">Choose Shark or Dino, outsmart your opponent, and conquer the board. Quick,
+                        strategic, and fiercely fun! 🦈🦖
+                    </p>
+                    <a href="Game1/Shark_Dino.html" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;" id="g2">
+                <img src="/web dev/Mark1/images/electricity.png" class="card-img-top" alt="Circuit Splash">
+                <div class="card-body">
+                    <h3 class="card-title">Circuit Splash</h3>
+                    <p class="card-text">Three elements collide! Predict your opponent's move, strike and harness
+                        elemental power to claim victory! ⚡🌊⚙️</p>
+                    <a href="Game2/Circuit_Splash.html" class="btn btn-primary">Play</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--------------------------------------------------------------- about --------------------------------------------------------------->
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+        <div class="accordion-item" id="AboutSection">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    About This Project
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    I created this project as a way to understand and master JavaScript and Bootstrap. Throughout this
+                    journey, I've learned
+                    a lot—not only about coding but also about problem-solving and building practical solutions. I look
+                    forward to applying
+                    these skills in future projects and to tackle real-life challenges.
+                    <br>
+                    <strong>Thank you for taking the time to explore my work. Your support and appreciation mean a
+                        lot!</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------- contact us ------------------------------------------------------------------>
+
+    <div class="end">
+        <h2>Contact Us!</h2>
+        <footer class="footer">
+
+            <div class="card text-center" id="contactUS">
+                <div class="card-header">
+                    Linkedin
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Debargha Sanyal</h5>
+                    <p class="card-text">We'd Love to Hear From You! Let's grow our professional<br>network.</p>
+                    <a href="https://www.linkedin.com/in/debargha-sanyal-0b5b05297/" class="btn btn-primary">Connect</a>
+                </div>
+
+            </div>
+            <div class="card text-center" id="contactUS">
+                <div class="card-header">
+                    E-mail
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">debarghasanyal128@gmail.com</h5>
+                    <p class="card-text">Have feedback or suggestions? Feel free to drop us an email.<br>We value your
+                        insights!</p>
+                    <a href="mailto:debarghasanyal128@gmail.com" class="btn btn-primary">Mail</a>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+
+    <script>
+        function scrollpg() {
+            document.getElementById("AboutSection").scrollIntoView({
+                behavior: 'smooth', // Smooth scrolling effect
+                block: 'center'     // Align the element at the center of the viewport
+            });
+        };
+        function scrollContact() {
+            document.getElementById("contactUS").scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
+        };
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
