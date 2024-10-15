@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: url(images/cover\ pg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav {
+    padding: 20px;
+    background-color: rgb(3, 3, 107);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav a {
+    font-size: larger;
+    font-weight: 600;
+    color: aliceblue;
+    margin: 0 3rem 0;
+    cursor: pointer;
+}
+
+.nav a:hover {
+    color: aqua;
+    box-shadow: 0 0 0 1px;
+    transition: 0.2s;
+}
+
+.container {
+    max-width: 100%;
+    margin: 2rem 0 2rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #05185cf0;
+    margin: 0 10rem 0;
+    padding: 2rem;
+    border-radius: 30px;
+    border: 2px solid #05B2DC;
+}
+
+#g1 {
+    margin-right: 50px;
+}
+
+.card img {
+    height: 12rem;
+}
+
+.card {
+    border: 5px solid #05B2DC;
+}
+
+.accordion {
+    margin: 0 3rem 3rem;
+
+}
+
+.accordion-button {
+    background-color: #0b0033f9;
+    color: rgb(155, 208, 255);
+    font-weight: 600;
+}
+
+.end {
+    margin: 3rem 0 0;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+.end h2 {
+    margin-bottom: 1.5rem;
+    color: aliceblue;
+    text-shadow: 4px 4px 10px white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-header {
+    background-color: rgb(3, 3, 107);
+    color: rgb(186, 223, 255);
+    font-size: 24px;
+}
+
+#contactUS {
+    border: 1px solid rgb(14, 190, 190);
+}
+
+.card-body {
+    background-color: #EDE6F2;
+}
+
+@media(max-width: 600px) {
+
+    body {
+        background-size: contain;
+    }
+
+    .nav a {
+        margin: 0;
+    }
+
+    .main {
+        margin: 0;
+        padding: 1.5rem 0 1.5rem;
+    }
+
+    #g1 {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    #contactUS:last-child {
+        margin-top: 1rem;
+    }
+}
+
+;
+
+.a {
+    color: #fff6c3;
+}
