@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/BeastBolt-Arena/images/shark\ and\ dino.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.gradi {
+    background-color: #000833;
+    margin: 10px 50px 0;
+    border-radius: 20px;
+    border: 2px solid #3F84E5;
+    padding: 10px 50px 10px;
+}
+
+#head {
+    font-size: 35px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(1, 130, 210), #18dd11);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: steelblue;
+}
+
+.game {
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: 1px solid;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 8vmin;
+    background-color: #000833;
+    color: black;
+    margin-left: 0px;
+}
+
+.box:hover {
+    background-color: #951212;
+    transition: 0.3s ease-out;
+    font-size: 40px;
+    border-color: #26FFE6;
+    cursor: pointer;
+}
+
+#reset {
+    margin: 14px;
+    padding: 14px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: black;
+    border-color: aliceblue;
+    font-size: 25px;
+}
+
+.hid {
+    display: none;
+}
+
+.score {
+    margin: 20px 50px 0;
+    background-color: #000833;
+    color: #26FFE6;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid aqua;
+}
+
+.score h4 {
+    font-size: 30px;
+}
+
+.score h6 {
+    font-size: 20px;
+}
+
+@media(max-width: 600px) {
+
+    .gradi {
+        padding: 0 20px 0;
+    }
+
+    #head {
+        font-size: 20px;
+    }
+
+    h1 {
+        margin: 20px;
+    }
+
+    .game {
+
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    .score {
+        margin: 50px;
+    }
+
+    .score h4 {
+        font-size: 20px;
+    }
+
+    .score h6 {
+        font-size: 16px;
+    }
+
+    #reset {
+        font-size: 18px;
+    }
+}
+
+;
