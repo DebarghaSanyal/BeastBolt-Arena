@@ -4,7 +4,11 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
     text-align: center;
-    background-color: #ffde90;
+}
+
+body {
+    background-image: url('/BeastBolt-Arena/images/gm2.png');
+    background-size: auto;
 }
 
 .container {
@@ -88,9 +92,8 @@ h1 button:hover {
 
 .choice:hover {
     cursor: pointer;
-    background-color: #ffde90;
     transition: 0.2s ease-out;
-    border: 5px solid #081b31;
+    border: 5px solid #5a5dc0;
     border-radius: 40%;
 }
 
@@ -141,11 +144,12 @@ img {
 
 .result {
     margin-top: 70px;
+    background-color: #E8FCC2;
 }
 
 .result h2 {
     color: #081b31;
-    background-color: antiquewhite;
+    background-color: #B1CC74;
     border-radius: 30px;
     margin: 10px -40px 10px;
     padding: 5px 50px 5px;
@@ -211,19 +215,29 @@ img {
         height: 80px;
     }
 
+    .choices img:hover {
+        border: 10px solid rgb(206, 227, 246);
+    }
+
     .result {
         margin: 20px;
         margin-top: 0;
         margin-bottom: 0;
         padding: 0;
         gap: 1rem;
-
     }
 
     .result h2 {
         margin: 5px;
         padding: 5px;
         font-size: 20px;
+    }
+
+    .drop {
+        top: 69%;
+        left: 0;
+        transition: 0.4s;
+        transform: translateY(10);
     }
 
     .system {
@@ -246,9 +260,17 @@ img {
     }
 
     .choice:hover {
-        background-color: #ffffff;
         transition: none;
         border: 0px;
+    }
+
+    .show_choice {
+        height: auto;
+    }
+
+    body {
+        background-image: url('/BeastBolt-Arena/images/gm2.png');
+        background-size: contain;
     }
 }
 
